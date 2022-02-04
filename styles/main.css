@@ -1,0 +1,71 @@
+@font-face {
+    font-family: serif;
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    font-style: normal;
+    font-weight: 350;
+}
+
+#home {
+    color: black;
+}
+.aboutme {
+    color: black;
+}
+#portfolio {
+    color:black;
+}
+contactme {
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    font-style: normal;
+    text-align: left;
+    background-color: skyblue;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+    background-color: plum;
+    
+}
+
+h3 {
+    font-size: 28px;
+    font-style: normal;
+    text-align: left;
+    background-color: skyblue;
+    
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    background-color: white;
+    margin: 3, auto;
+}
+.timeline::after {
+    content: Black Codher;
+    position: absolute;
+    width: 10;
+    height: 20px;
+    background-color: white
+}
+
+.container {
+    padding: 25px 50px 20px 45px;
+    position: relative;
+    background-color: white;
+    width: 40%;
+}
+.container::after {
+    content: Birmingham City University;
+    position: absolute;
+    width: 10;
+    height: 20px;
+    background-color: white
+    
