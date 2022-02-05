@@ -1,0 +1,144 @@
+@font-face {
+    font-family: serif;
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    font-style: normal;
+    font-weight: 350;
+}
+
+#home {
+    color: black;
+}
+.aboutme {
+    color: black;
+}
+#portfolio {
+    color:black;
+}
+.contactme {
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    font-style: normal;
+    text-align: left;
+    background-color: skyblue;
+    
+}
+
+h2{
+    font-size: 24px;
+    font-style: normal;
+    text-align: left;
+    background-color: plum;
+    
+}
+
+h3 {
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    background-color: skyblue;
+    
+}
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: plum;
+    font-family: Tahoma, sans-serif;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    background-color: white;
+    margin: 3, auto;
+}
+.timeline::after {
+    content: Black Codher;
+    position: absolute;
+    width: 10;
+    height: 20px;
+    background-color: white
+}
+
+.container {
+    padding: 25px 50px 20px 45px;
+    position: relative;
+    background-color: white;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.container::after {
+    content: "Birmingham City University";
+    position: fixed;
+    width: 40px;
+    height: 50px;
+    background-color: white;
+    border: 10px;
+    border-color: black;
+}
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.left::before {
+    content: Nottingham Trent University;
+    height: 20px;
+    width: 15px;
+    top: 28px;
+    border: 10px;
+    border-color: black;
+}
+.right::before {
+   content: "Front of House Assistant";
+   height: 20px;
+   width: 15px;
+   top: 28px;
+   border: 10px;
+   border-color: black;
+}
+.right::after {
+    left: -12px;
+}
+.content {
+    padding: 25px 40px 25px 40px;
+    background-color: lavender;
+    position: fixed;
+    border-radius: 5px;
+}
+@media screen (max-width: 600px;) {
+    h2 {
+        font-size: 20px;
+    }
+.container {
+    width: 50%;
+    padding-top: 35px;
+    padding-right: 55px;
+    padding-bottom: 35px;
+    padding-right: 55px;
+}
+
+.container::before {
+    left: 50px;
+    border: medium
+    border-width: 15px 20px 27px 25px;
+    border-color: black yellow black white;
+}
+
+.left::after, .right::after {
+    left: 20px;
+}
+
+.right {
+    left: 0;
+}
+
